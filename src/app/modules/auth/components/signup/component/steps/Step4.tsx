@@ -28,7 +28,6 @@ const Step4: FC = () => {
             title="Specify a card holder's name"
           ></i>
         </label>
-
         <Field
           type='text'
           className='form-control form-control-solid'

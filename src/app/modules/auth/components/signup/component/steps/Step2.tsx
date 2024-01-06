@@ -4,6 +4,7 @@ import { toAbsoluteUrl } from './../../../../../../../_metronic/helpers'
 import { Link } from 'react-router-dom'
 
 const Step2: FC = () => {
+  
   return (
     <div className='w-100'>
       <div className='pb-10 pb-lg-15'>

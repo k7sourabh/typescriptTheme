@@ -17,7 +17,7 @@ const SignUp = () => {
   const [initValues] = useState<ICreateAccount>(inits)
   const navigate = useNavigate()
 
-  // console.log('initValues',initValues)
+  console.log('initValues',initValues)
 
   const loadStepper = () => {
     stepper.current = StepperComponent.createInsance(stepperRef.current as HTMLDivElement)

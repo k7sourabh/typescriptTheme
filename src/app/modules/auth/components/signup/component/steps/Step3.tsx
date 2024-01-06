@@ -17,7 +17,6 @@ const Step3: FC = () => {
     formik.setFieldValue('dateOfBirth', formattedDate);
   }
 
-  console.log(errors);
 
   return (
     <div className='w-100'>

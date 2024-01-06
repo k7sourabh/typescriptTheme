@@ -3,6 +3,7 @@ import { KTIcon } from './../../../../../../../_metronic/helpers'
 import { Link } from 'react-router-dom'
 
 const Step5: FC = () => {
+  
   return (
     <div className='w-100'>
       <div className='pb-8 pb-lg-10 mb-lg-10'>
