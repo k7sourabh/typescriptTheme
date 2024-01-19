@@ -17,7 +17,7 @@ const SignUp = () => {
   const [initValues] = useState<ICreateAccount>(inits)
   const navigate = useNavigate()
 
-  console.log('initValues',initValues)
+  // console.log('initValues',initValues)
 
   const loadStepper = () => {
     stepper.current = StepperComponent.createInsance(stepperRef.current as HTMLDivElement)
@@ -64,7 +64,7 @@ const SignUp = () => {
 
     loadStepper()
   }, [stepperRef])
-
+  console.log('initValues',initValues)
   return (
     <div className='d-flex flex-column flex-root' id='kt_app_root'>
       {/* begin::Authentication - Multi-steps */}

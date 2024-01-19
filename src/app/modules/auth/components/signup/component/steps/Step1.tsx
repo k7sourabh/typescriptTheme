@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { ErrorMessage, Field, useFormikContext } from 'formik'
 import PasswordStrengthBar from 'react-password-strength-bar';
 import { ICreateAccount } from '../CreateAccountWizardHelper';
-
+console.log('initValues')
 const Step1: FC = () => {
   const { values } = useFormikContext<ICreateAccount>();
 // new page
