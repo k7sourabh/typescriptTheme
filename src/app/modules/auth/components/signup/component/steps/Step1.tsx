@@ -123,6 +123,7 @@ const Step1: FC = () => {
       {/* end::Form group */}
 
       {/* begin::Action */}
+      
       <div className='d-grid mb-10'>
         <button
           type='submit'

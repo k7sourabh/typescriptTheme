@@ -16,8 +16,8 @@ const Step3: FC = () => {
     const formattedDate = defaultDob.toISOString().split('T')[0];
     formik.setFieldValue('dateOfBirth', formattedDate);
   }
-
-  console.log('initValues')
+  console.log("hello")
+  // console.log('initValues')
   return (
     <div className='w-100'>
       <div className='pb-10 pb-lg-15'>

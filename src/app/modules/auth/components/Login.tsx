@@ -25,6 +25,7 @@ const initialValues = {
   password: 'demo',
 }
 console.log('initialValues',initialValues)
+console.log("hello")
 /*
   Formik+YUP+Typescript:
   https://jaredpalmer.com/formik/docs/tutorial#getfieldprops

@@ -16,7 +16,7 @@ const SignUp = () => {
   const [currentSchema, setCurrentSchema] = useState(createAccountSchemas[0])
   const [initValues] = useState<ICreateAccount>(inits)
   const navigate = useNavigate()
-
+  console.log("hello")
   // console.log('initValues',initValues)
 
   const loadStepper = () => {
